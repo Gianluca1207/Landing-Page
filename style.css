@@ -1,0 +1,94 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 18px;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+    margin: 10px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin: 0px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 13px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2-title {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 26px;
+    gap: 26px;
+}
+
+.card {
+    height: 175px;
+    width: 175px;
+    border: 5px solid #3882f8;
+    border-radius: 10px;
+    
+}
